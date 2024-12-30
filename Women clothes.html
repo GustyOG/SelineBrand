@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Clothing</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fdf5e6; /* Light beige background */
+            color: #333;
+        }
+        header {
+            padding: 10px 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            color: #333;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+        .product {
+            flex: 1 1 calc(33.333% - 20px);
+            margin: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product h3 {
+            margin: 10px 0;
+            font-size: 1.2rem;
+        }
+        .product p {
+            font-size: 1rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Women's Collection</h1>
+    </header>
+    <section class="products">
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1555685812-6a649f5e2cfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400" alt="Product 1">
+            <h3>Elegant Dress</h3>
+            <p>$120.00</p>
+        </div>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400" alt="Product 2">
+            <h3>Stylish Blazer</h3>
+            <p>$180.00</p>
+        </div>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1593032465170-ecb25215e992?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400" alt="Product 3">
+            <h3>Chic Top</h3>
+            <p>$70.00</p>
+        </div>
+    </section>
+</body>
+</html>
